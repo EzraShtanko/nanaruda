@@ -1,0 +1,108 @@
+:root {
+    --splash-main-bg-color                  : #009c77;
+    --splash-main-name-color                : #f66f66;
+    --splash-main-surname-color             : #fcec6e;
+    --splash-main-backdrop-pattern-color    : #00b387;
+
+    --frontpage-title-font-size             : 7em;
+    --frontpage-top-container-height        : 30em;
+    
+}
+
+
+.frontpage-top-container {
+    display         : block;
+    width           : 100%;
+    height          : var(--frontpage-top-container-height);
+
+}
+
+.frontpage-splash {
+    
+    
+    box-sizing          : border-box;
+    padding-top         : calc(var(--frontpage-top-container-height) / 2);
+    overflow            : hidden;
+    
+    width               : 100%;
+    height              : 100%;
+    background-color    : var(--splash-main-bg-color);
+}
+
+.frontpage-splash.backdrop-mask {
+    width: 100%;
+    height: 100%;
+}
+
+.frontpage-splash-backdrop-pattern {
+
+    color           : var(--splash-main-backdrop-pattern-color);
+
+    letter-spacing  : -0.2em;
+
+    position        : absolute;
+
+    font-size       : 7em;
+
+    width           : 0em;
+    height          : 0em;
+
+    margin-left     : -1.513em;
+    margin-top      : -0.45em;
+
+
+    text-align      : center;
+
+}
+
+.frontpage-title-container {
+
+    display: block;
+    
+    font-size           : var(--frontpage-title-font-size);
+
+    width               : 0;    /*4px;*/
+    height              : 0;    /*4px;*/
+    margin              : 0 auto;
+
+    background-color    : black;
+}
+
+.frontpage-title {
+
+    /* border: dashed;
+    border-width: 2px;
+    border-color: red; */
+
+    position: absolute;
+}
+
+.frontpage-title.name {
+    font-size:          1.5em;
+    color:              var(--splash-main-name-color);
+    text-align:         center;
+
+    margin-top:         -0.5em;
+    margin-left:        -2em;
+
+}
+
+.frontpage-title.surname {
+    font-size:          1em;
+    color:              var(--splash-main-surname-color);
+
+    margin-top:         0.2em;
+    margin-left:        -2.5em;
+}
+
+.frontpage-title.thin-line {
+    position            : absolute;
+    height              : 0.05em;
+    width               : 5.7em;
+    background-color    : var(--splash-main-surname-color);
+
+    border-radius       : 0.025em;
+    
+    margin-left         : -2.9em;
+    margin-top          : 0.27em;
+}
