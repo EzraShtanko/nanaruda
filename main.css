@@ -1,6 +1,6 @@
 :root {
     --splash-main-bg-color                  : #009c77;
-    --splash-main-name-color                : #f66f66;
+    --splash-main-name-color                : #2258a1;
     --splash-main-surname-color             : #fcec6e;
     --splash-main-backdrop-pattern-color    : #00b387;
 
@@ -13,12 +13,11 @@
 .frontpage-top-container {
     display         : block;
     width           : 100%;
-    height          : var(--frontpage-top-container-height);
+    height          : 1em;
 
 }
 
 .frontpage-splash {
-    
     
     box-sizing          : border-box;
     padding-top         : calc(var(--frontpage-top-container-height) / 2);
@@ -30,17 +29,32 @@
 }
 
 .frontpage-splash.backdrop-mask {
-    width: 100%;
-    height: 100%;
+    
+    display             : block;
+    position            : absolute;
+
+    /* height              : var(--frontpage-top-container-height); */
+
+    font-size           : var(--frontpage-title-font-size);
+    width               : 100%;
+    
+    text-align          : center;
+
+    border              : dashed;
+    border-color        : black;
+    border-bottom       : 2px;
+
+    overflow            : hidden;
 }
 
 .frontpage-splash-backdrop-pattern {
+
+    display         : inline-block;
 
     color           : var(--splash-main-backdrop-pattern-color);
 
     letter-spacing  : -0.2em;
 
-    position        : absolute;
 
     font-size       : 7em;
 
@@ -58,12 +72,14 @@
 .frontpage-title-container {
 
     display: block;
+    position: absolute;
     
     font-size           : var(--frontpage-title-font-size);
 
     width               : 0;    /*4px;*/
     height              : 0;    /*4px;*/
-    margin              : 0 auto;
+    /* margin-top          : calc(var(--frontpage-top-container-height)); */
+    margin-left         : 50%;
 
     background-color    : black;
 }
