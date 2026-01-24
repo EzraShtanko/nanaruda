@@ -1,0 +1,35 @@
+[
+    {
+        "title"             : "Project Title #1",
+        "img-url"           : "",
+        "preview-height"    : 4,
+        "desc"              : [
+            "Some lorem describing the work in plain and simple set of paragraphs.",
+            "Can contain however many paragraphs altogether.",
+            "...",
+            "The object will simply keep scaling."
+        ]
+    },
+    {
+        "title"             : "Project Title #2",
+        "img-url"           : "",
+        "preview-height"    : 4,
+        "desc"              : [
+            "Some lorem describing the work in plain and simple set of paragraphs.",
+            "Can contain however many paragraphs altogether.",
+            "...",
+            "The object will simply keep scaling."
+        ]
+    },
+    {
+        "title"             : "Project Title #2",
+        "img-url"           : "",
+        "preview-height"    : 4,
+        "desc"              : [
+            "Some lorem describing the work in plain and simple set of paragraphs.",
+            "Can contain however many paragraphs altogether.",
+            "...",
+            "The object will simply keep scaling."
+        ]
+    }
+]
