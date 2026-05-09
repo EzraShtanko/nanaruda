@@ -63,13 +63,13 @@
 
 .grid-picture {
 
-    /* z-index                 : 512; */
-
-    display                 : block;
+    display                 : grid;
     height                  : 100%;
     width                   : 100%;
 
-    overflow                : visible;
+    box-sizing              : border-box;
+    
+    pointer-events          : none;
 
     background-color        : var(--grid-cell-default-color) ;
     border-radius           : 0.2em;
@@ -80,6 +80,9 @@
 
     display                 : grid;
     grid-template-rows      : 3em auto 3em;
+    pointer-events          : none;
+
+    visibility              : hidden;
 
     box-sizing: border-box;
 
@@ -90,18 +93,22 @@
     width                   : calc(100% + 4em);
 
     margin                  : -3em 0em 0em -2em;
-
     
     background-color        : #fff;
     border-radius           : 0.5em;
 }
 
 
-.top-text {     padding-top     : 2.2em; }
-.bottom-text {  padding-top: 0.2em; text-align: right;}
+.top-text {     padding-top: 2.2em; pointer-events: none; }
+.bottom-text {  padding-top: 0.2em; text-align: right; pointer-events: none; }
 
 .paspartu p {
+    pointer-events          : none;
     box-sizing              : border-box;
     color                   : #555;
     font-size               : 0.8em;
 }
+
+
+.hoverable {    pointer-events: all; }
+.revealed {       visibility: visible; }
