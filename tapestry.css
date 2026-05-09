@@ -1,0 +1,107 @@
+:root {
+    --grid-cell-default-color   : #999;
+}
+
+.picture-grid-line {
+
+    display                 : grid;
+
+    min-height              : 10em;
+
+    /* 
+    border                  : dotted;
+    border-width            : 0.01em;
+    border-color            : black; 
+        */
+
+}
+
+.picture-grid-line.p5x2x2   { grid-template-columns: 5fr 2fr 2.5fr; }
+.picture-grid-line.p1x2x4   { grid-template-columns: 1fr 2fr 4fr; }
+.picture-grid-line.p2x2x3   { grid-template-columns: 2fr 2fr 3fr; }
+.picture-grid-line.p5x2x1   { grid-template-columns: 5fr 2fr 1fr; }
+.picture-grid-line.p5x2x1   { grid-template-columns: 5fr 2fr 1fr; }
+
+.picture-grid-line.p3x1     { grid-template-columns: 3fr 1fr; }
+.picture-grid-line.p2x5     { grid-template-columns: 2fr 5fr; }
+
+.picture-grid-row {
+
+    display                 : grid;
+
+    /* 
+    border                  : solid;
+    border-width            : 0.01em;
+    border-color            : black; 
+    */
+}
+
+.picture-grid-row.p3x2x3x1  { grid-template-rows: 3fr 2fr 3fr 1fr; }
+.picture-grid-row.p1x3x1x2  { grid-template-rows: 1fr 3fr 1fr 2fr; }
+.picture-grid-row.p2x1x3x1  { grid-template-rows: 2fr 1fr 3fr 1fr; }
+
+.picture-grid-row.p1x1x1    { grid-template-rows: 1fr 1fr 1fr; }
+.picture-grid-row.p1x2x1    { grid-template-rows: 1fr 2fr 1fr;}
+
+.picture-grid-row.p1x1      { grid-template-rows: 1fr 1fr; }
+.picture-grid-row.p3x1      { grid-template-rows: 3fr 1.6fr; }
+.picture-grid-row.p1x3      { grid-template-rows: 1fr 3fr; }
+.picture-grid-row.p1x2      { grid-template-rows: 1fr 2fr; }
+
+
+.picture-grid-cell {
+    display                 : block;
+    height                  : auto;
+
+    /* 
+    border                  : dotted;
+    border-width            : 0.01em;
+    border-color            : red; 
+    */
+}
+
+
+.grid-picture {
+
+    /* z-index                 : 512; */
+
+    display                 : block;
+    height                  : 100%;
+    width                   : 100%;
+
+    overflow                : visible;
+
+    background-color        : var(--grid-cell-default-color) ;
+    border-radius           : 0.2em;
+}
+
+
+.paspartu {
+
+    display                 : grid;
+    grid-template-rows      : 3em auto 3em;
+
+    box-sizing: border-box;
+
+    padding: 0 2em;
+
+    position                : relative;
+    height                  : calc(100% + 6em);
+    width                   : calc(100% + 4em);
+
+    margin                  : -3em 0em 0em -2em;
+
+    
+    background-color        : #fff;
+    border-radius           : 0.5em;
+}
+
+
+.top-text {     padding-top     : 2.2em; }
+.bottom-text {  padding-top: 0.2em; text-align: right;}
+
+.paspartu p {
+    box-sizing              : border-box;
+    color                   : #555;
+    font-size               : 0.8em;
+}
