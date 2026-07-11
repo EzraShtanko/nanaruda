@@ -71,7 +71,8 @@
     
     pointer-events          : none;
 
-    background-color        : var(--grid-cell-default-color) ;
+    background-color        : var(--grid-cell-default-color);
+    background-size         : cover;
     border-radius           : 0.2em;
 }
 
@@ -98,6 +99,11 @@
     border-radius           : 0.5em;
 }
 
+.paspartu.red {     background-color: maroon; }         .paspartu.red p {       color : #fff; }
+.paspartu.black {   background-color: black; }          .paspartu.black p {     color : #fff; }
+.paspartu.sky {     background-color: skyblue;}         .paspartu.sky p {       color : #fff; }
+.paspartu.pink{     background-color: palevioletred;}   .paspartu.pink p {      color : #fff; }
+
 
 .top-text {     padding-top: 2.2em; pointer-events: none; }
 .bottom-text {  padding-top: 0.2em; text-align: right; pointer-events: none; }
@@ -110,5 +116,5 @@
 }
 
 
-.hoverable {    pointer-events: all; }
-.revealed {       visibility: visible; }
+.hoverable {   pointer-events: all; }
+.revealed {    visibility: visible; }
