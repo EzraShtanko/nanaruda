@@ -3,6 +3,8 @@
   background-color      : #aaa;
 
   border-radius         : 0.3em;
+  background-size       : cover;
+  background-position   : center;
 }
 
 .mosaic-picture p {
@@ -17,7 +19,7 @@
 
 .mosaic-picture.number-00- {
   visibility          : var(--pic-00-featured-in-land);
-  background-image    : url(var(--pic-00-image));
+  background-image    : url("img/eclipse.png");
   width               : calc(var(--pic-00-size-x) * 100vw / var(--cell-density-land));
   height              : calc(var(--pic-00-size-y) * 100vw / var(--cell-density-land));
   margin-left         : calc(var(--pic-00-position-x-land) * 100vw / var(--cell-density-land));
@@ -27,7 +29,7 @@
 
 .mosaic-picture.number-01- {
   visibility          : var(--pic-01-featured-in-land);
-  background-image    : url(var(--pic-01-image));
+  background-image    : url("img/squirrel.png");
   width               : calc(var(--pic-01-size-x) * 100vw / var(--cell-density-land));
   height              : calc(var(--pic-01-size-y) * 100vw / var(--cell-density-land));
   margin-left         : calc(var(--pic-01-position-x-land) * 100vw / var(--cell-density-land));
@@ -38,7 +40,7 @@
 
 .mosaic-picture.number-02- {
   visibility          : var(--pic-02-featured-in-land);
-  background-image    : url(var(--pic-02-image));
+  background-image    : url("img/paintinghouses.png");
   width               : calc(var(--pic-02-size-x) * 100vw / var(--cell-density-land));
   height              : calc(var(--pic-02-size-y) * 100vw / var(--cell-density-land));
   margin-left         : calc(var(--pic-02-position-x-land) * 100vw / var(--cell-density-land));
@@ -49,7 +51,7 @@
 
 .mosaic-picture.number-03- {
   visibility          : var(--pic-03-featured-in-land);
-  background-image    : url(var(--pic-03-image));
+  background-image    : url("img/azov.jpg");
   width               : calc(var(--pic-03-size-x) * 100vw / var(--cell-density-land));
   height              : calc(var(--pic-03-size-y) * 100vw / var(--cell-density-land));
   margin-left         : calc(var(--pic-03-position-x-land) * 100vw / var(--cell-density-land));
@@ -60,7 +62,7 @@
 
 .mosaic-picture.number-04- {
   visibility          : var(--pic-04-featured-in-land);
-  background-image    : url(var(--pic-04-image));
+  background-image    : url("img/longcacti.png");
   width               : calc(var(--pic-04-size-x) * 100vw / var(--cell-density-land));
   height              : calc(var(--pic-04-size-y) * 100vw / var(--cell-density-land));
   margin-left         : calc(var(--pic-04-position-x-land) * 100vw / var(--cell-density-land));
@@ -71,7 +73,7 @@
 
 .mosaic-picture.number-05- {
   visibility          : var(--pic-05-featured-in-land);
-  background-image    : url(var(--pic-05-image));
+  background-image    : url("img/fieldpicnic.png");
   width               : calc(var(--pic-05-size-x) * 100vw / var(--cell-density-land));
   height              : calc(var(--pic-05-size-y) * 100vw / var(--cell-density-land));
   margin-left         : calc(var(--pic-05-position-x-land) * 100vw / var(--cell-density-land));
@@ -82,7 +84,7 @@
 
 .mosaic-picture.number-06- {
   visibility          : var(--pic-06-featured-in-land);
-  background-image    : url(var(--pic-06-image));
+  background-image    : url("img/housefront.jpg");
   width               : calc(var(--pic-06-size-x) * 100vw / var(--cell-density-land));
   height              : calc(var(--pic-06-size-y) * 100vw / var(--cell-density-land));
   margin-left         : calc(var(--pic-06-position-x-land) * 100vw / var(--cell-density-land));
@@ -92,7 +94,7 @@
 
 .mosaic-picture.number-07- {
   visibility          : var(--pic-07-featured-in-land);
-  background-image    : url(var(--pic-07-image));
+  background-image    : url("img/zabbalcony.png");
   width               : calc(var(--pic-07-size-x) * 100vw / var(--cell-density-land));
   height              : calc(var(--pic-07-size-y) * 100vw / var(--cell-density-land));
   margin-left         : calc(var(--pic-07-position-x-land) * 100vw / var(--cell-density-land));
@@ -104,7 +106,7 @@
 
 .mosaic-picture.number-08- {
   visibility          : var(--pic-08-featured-in-land);
-  background-image    : url(var(--pic-08-image));
+  background-image    : url("img/caronchair.png");
   width               : calc(var(--pic-08-size-x) * 100vw / var(--cell-density-land));
   height              : calc(var(--pic-08-size-y) * 100vw / var(--cell-density-land));
   margin-left         : calc(var(--pic-08-position-x-land) * 100vw / var(--cell-density-land));
@@ -115,7 +117,7 @@
 
 .mosaic-picture.number-09- {
   visibility          : var(--pic-09-featured-in-land);
-  background-image    : url(var(--pic-09-image));
+  background-image    : url("img/koujina.png");
   width               : calc(var(--pic-09-size-x) * 100vw / var(--cell-density-land));
   height              : calc(var(--pic-09-size-y) * 100vw / var(--cell-density-land));
   margin-left         : calc(var(--pic-09-position-x-land) * 100vw / var(--cell-density-land));
