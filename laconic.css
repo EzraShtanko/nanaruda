@@ -1,0 +1,14 @@
+
+
+
+.minimal-header {
+  position      : absolute;
+}
+
+.central-square {
+  display       : block;
+  width         : 100%;
+  height        : 100vh;
+
+  
+}
