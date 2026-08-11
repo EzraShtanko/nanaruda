@@ -19,7 +19,6 @@
 
   /* PICTURE #-00- parameters */
   /* TITLE (for lookup) : eclipse */
-  --pic-00-image              : "";
   --pic-00-size-x             : 9;
   --pic-00-size-y             : 5;
   /* set to 'visible' */
@@ -41,7 +40,6 @@
 
   /* PICTURE #-01- parameters */
   /* TITLE (for lookup) : squirrel */
-  --pic-01-image              : "";
   --pic-01-size-x             : 6;
   --pic-01-size-y             : 4;
   /* set to 'visible' */
@@ -63,7 +61,6 @@
 
   /* PICTURE #-02- parameters */
   /* TITLE (for lookup) : painting houses */
-  --pic-02-image              : "";
   --pic-02-size-x             : 6;
   --pic-02-size-y             : 6;
   /* set to 'visible' */
@@ -85,7 +82,6 @@
 
   /* PICTURE #-03- parameters */
   /* TITLE (for lookup) : azov mariupol */
-  --pic-03-image              : "";
   --pic-03-size-x             : 7;
   --pic-03-size-y             : 4;
   /* set to 'visible' */
@@ -107,7 +103,6 @@
 
   /* PICTURE #-04- parameters */
   /* TITLE (for lookup) : long cacti */
-  --pic-04-image              : "";
   --pic-04-size-x             : 9;
   --pic-04-size-y             : 3;
   /* set to 'visible' */
@@ -130,7 +125,6 @@
 
   /* PICTURE #-05- parameters */
   /* TITLE (for lookup) : field picnic */
-  --pic-05-image              : "";
   --pic-05-size-x             : 16;
   --pic-05-size-y             : 9;
   /* set to 'visible' */
@@ -153,7 +147,6 @@
 
   /* PICTURE #-06- parameters */
   /* TITLE (for lookup) : house */
-  --pic-06-image              : "";
   --pic-06-size-x             : 7;
   --pic-06-size-y             : 5;
   /* set to 'visible' */
@@ -176,7 +169,6 @@
 
   /* PICTURE #-07- parameters */
   /* TITLE (for lookup) : zab */
-  --pic-07-image              : "";
   --pic-07-size-x             : 20;
   --pic-07-size-y             : 7;
   /* set to 'visible' */
@@ -199,7 +191,6 @@
 
   /* PICTURE #-08- parameters */
   /* TITLE (for lookup) : caron */
-  --pic-08-image              : "";
   --pic-08-size-x             : 16;
   --pic-08-size-y             : 13;
   /* set to 'visible' */
@@ -220,9 +211,8 @@
 
 
 
-  /* PICTURE #-09- parameters */
-  /* TITLE (for lookup) : koujina */
-  --pic-09-image              : "";
+  /* picture #-09- parameters */
+  /* title (for lookup) : koujina */
   --pic-09-size-x             : 9;
   --pic-09-size-y             : 14;
   /* set to 'visible' */
@@ -240,6 +230,198 @@
   /* portrait layout position */
   --pic-09-position-x-port    : 1;
   --pic-09-position-y-port    : 1;
+
+
+
+  /* picture #-10- parameters */
+  /* title (for lookup) : koujina */
+  --pic-10-size-x             : 9;
+  --pic-10-size-y             : 14;
+  /* set to 'visible' */
+  /* for the picture to be visible */
+  /* in the respective layout */
+  --pic-10-featured-in-land   : visible;
+  --pic-10-featured-in-rect   : hidden;
+  --pic-10-featured-in-port   : hidden;
+  /* landscape layout position */
+  --pic-10-position-x-land    : 62;
+  --pic-10-position-y-land    : 2;
+  /* square layout position */
+  --pic-10-position-x-rect    : 1;
+  --pic-10-position-y-rect    : 1;
+  /* portrait layout position */
+  --pic-10-position-x-port    : 1;
+  --pic-10-position-y-port    : 1;
+
+
+  /* picture #-11- parameters */
+  /* title (for lookup) : koujina */
+  --pic-11-size-x             : 9;
+  --pic-11-size-y             : 14;
+  /* set to 'visible' */
+  /* for the picture to be visible */
+  /* in the respective layout */
+  --pic-11-featured-in-land   : visible;
+  --pic-11-featured-in-rect   : hidden;
+  --pic-11-featured-in-port   : hidden;
+  /* landscape layout position */
+  --pic-11-position-x-land    : 62;
+  --pic-11-position-y-land    : 2;
+  /* square layout position */
+  --pic-11-position-x-rect    : 1;
+  --pic-11-position-y-rect    : 1;
+  /* portrait layout position */
+  --pic-11-position-x-port    : 1;
+  --pic-11-position-y-port    : 1;
+
+
+
+  /* picture #-13- parameters */
+  /* title (for lookup) : koujina */
+  --pic-13-size-x             : 9;
+  --pic-13-size-y             : 14;
+  /* set to 'visible' */
+  /* for the picture to be visible */
+  /* in the respective layout */
+  --pic-13-featured-in-land   : visible;
+  --pic-13-featured-in-rect   : hidden;
+  --pic-13-featured-in-port   : hidden;
+  /* landscape layout position */
+  --pic-13-position-x-land    : 62;
+  --pic-13-position-y-land    : 2;
+  /* square layout position */
+  --pic-13-position-x-rect    : 1;
+  --pic-13-position-y-rect    : 1;
+  /* portrait layout position */
+  --pic-13-position-x-port    : 1;
+  --pic-13-position-y-port    : 1;
+
+
+
+  /* picture #-14- parameters */
+  /* title (for lookup) : koujina */
+  --pic-14-size-x             : 9;
+  --pic-14-size-y             : 14;
+  /* set to 'visible' */
+  /* for the picture to be visible */
+  /* in the respective layout */
+  --pic-14-featured-in-land   : visible;
+  --pic-14-featured-in-rect   : hidden;
+  --pic-14-featured-in-port   : hidden;
+  /* landscape layout position */
+  --pic-14-position-x-land    : 62;
+  --pic-14-position-y-land    : 2;
+  /* square layout position */
+  --pic-14-position-x-rect    : 1;
+  --pic-14-position-y-rect    : 1;
+  /* portrait layout position */
+  --pic-14-position-x-port    : 1;
+  --pic-14-position-y-port    : 1;
+
+
+  /* picture #-15- parameters */
+  /* title (for lookup) : koujina */
+  --pic-15-size-x             : 9;
+  --pic-15-size-y             : 14;
+  /* set to 'visible' */
+  /* for the picture to be visible */
+  /* in the respective layout */
+  --pic-15-featured-in-land   : visible;
+  --pic-15-featured-in-rect   : hidden;
+  --pic-15-featured-in-port   : hidden;
+  /* landscape layout position */
+  --pic-15-position-x-land    : 62;
+  --pic-15-position-y-land    : 2;
+  /* square layout position */
+  --pic-15-position-x-rect    : 1;
+  --pic-15-position-y-rect    : 1;
+  /* portrait layout position */
+  --pic-15-position-x-port    : 1;
+  --pic-15-position-y-port    : 1;
+
+
+  /* picture #-16- parameters */
+  /* title (for lookup) : koujina */
+  --pic-16-size-x             : 9;
+  --pic-16-size-y             : 14;
+  /* set to 'visible' */
+  /* for the picture to be visible */
+  /* in the respective layout */
+  --pic-16-featured-in-land   : visible;
+  --pic-16-featured-in-rect   : hidden;
+  --pic-16-featured-in-port   : hidden;
+  /* landscape layout position */
+  --pic-16-position-x-land    : 62;
+  --pic-16-position-y-land    : 2;
+  /* square layout position */
+  --pic-16-position-x-rect    : 1;
+  --pic-16-position-y-rect    : 1;
+  /* portrait layout position */
+  --pic-16-position-x-port    : 1;
+  --pic-16-position-y-port    : 1;
+
+
+  /* picture #-17- parameters */
+  /* title (for lookup) : koujina */
+  --pic-17-size-x             : 9;
+  --pic-17-size-y             : 14;
+  /* set to 'visible' */
+  /* for the picture to be visible */
+  /* in the respective layout */
+  --pic-17-featured-in-land   : visible;
+  --pic-17-featured-in-rect   : hidden;
+  --pic-17-featured-in-port   : hidden;
+  /* landscape layout position */
+  --pic-17-position-x-land    : 62;
+  --pic-17-position-y-land    : 2;
+  /* square layout position */
+  --pic-17-position-x-rect    : 1;
+  --pic-17-position-y-rect    : 1;
+  /* portrait layout position */
+  --pic-17-position-x-port    : 1;
+  --pic-17-position-y-port    : 1;
+
+
+  /* picture #-18- parameters */
+  /* title (for lookup) : koujina */
+  --pic-18-size-x             : 9;
+  --pic-18-size-y             : 14;
+  /* set to 'visible' */
+  /* for the picture to be visible */
+  /* in the respective layout */
+  --pic-18-featured-in-land   : visible;
+  --pic-18-featured-in-rect   : hidden;
+  --pic-18-featured-in-port   : hidden;
+  /* landscape layout position */
+  --pic-18-position-x-land    : 62;
+  --pic-18-position-y-land    : 2;
+  /* square layout position */
+  --pic-18-position-x-rect    : 1;
+  --pic-18-position-y-rect    : 1;
+  /* portrait layout position */
+  --pic-18-position-x-port    : 1;
+  --pic-18-position-y-port    : 1;
+
+  /* picture #-19- parameters */
+  /* title (for lookup) : koujina */
+  --pic-19-size-x             : 9;
+  --pic-19-size-y             : 14;
+  /* set to 'visible' */
+  /* for the picture to be visible */
+  /* in the respective layout */
+  --pic-19-featured-in-land   : visible;
+  --pic-19-featured-in-rect   : hidden;
+  --pic-19-featured-in-port   : hidden;
+  /* landscape layout position */
+  --pic-19-position-x-land    : 62;
+  --pic-19-position-y-land    : 2;
+  /* square layout position */
+  --pic-19-position-x-rect    : 1;
+  --pic-19-position-y-rect    : 1;
+  /* portrait layout position */
+  --pic-19-position-x-port    : 1;
+  --pic-19-position-y-port    : 1;
+
 
 
 
